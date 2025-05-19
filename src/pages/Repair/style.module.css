@@ -1,0 +1,82 @@
+.Repair {
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+}
+
+.heading {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    font-size: 4.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.description {
+    font-size: 1.8rem;
+    width: 700px;
+    opacity: .8;
+    text-align: center;
+    margin: auto;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: var(--buttonColor);
+
+    input {
+        width: 100%;
+        font-size: 2rem;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--borderColor);
+        background-color: var(--mainBackgroundColor);
+        color: var(--mainColor);
+    }
+
+
+}
+
+.find {
+    background-color: var(--auxiliaryСolor);
+    color: var(--mainColor);
+    border-radius: 8px;
+    width: 170px;
+    font-size: 1.6rem;
+    /* margin: 5px; */
+}
+
+.cards {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    transition: all .2s;
+}
+
+.empty{
+    font-size: 2.4rem;
+    align-items: center;
+    grid-column: 2/3;
+}
+
+.seeMore {
+    padding: 24px 16px;
+    width: 120px;
+    font-size: 1.6rem;
+    background-color: var(--buttonColor);
+    border: 1px solid var(--borderColor);
+    color: var(--mainColor);
+    border-radius: 8px;
+}

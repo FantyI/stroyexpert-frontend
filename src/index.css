@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comforter+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Liter&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sedan:ital@0;1&display=swap');
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --mainColor: rgba(255, 255, 255, 0.87);
+  --mainBackgroundColor: #020100;
+  --auxiliaryСolor: #FF5200;
+  --borderColor: #282726;
+  --gray: #ffffff94;
+  --buttonActive : #282726;
+  --buttonColor: #161514;
+
+  color: var(--mainColor);
+  background-color: var(--mainBackgroundColor);
+}
+
+html{
+  font-size: 62.5%;
+  
+}
+
+body {
+  box-sizing: border-box;
+  min-width: 1440px;
+  width: 1440px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+body #root > *{
+  padding-inline: 40px;
+  margin-bottom: 100px;
+}
+
+a {
+  /* text-decoration: none; */
+  color: var(--mainColor);
+}
+
+
+button,
+input,
+textarea{
+  border: none;
+  outline: none;
+}
+
+h1 {
+  font-size: 6.4rem;
+  line-height: 1.1;
+  font-weight: 400;
+}

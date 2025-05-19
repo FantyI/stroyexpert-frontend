@@ -1,0 +1,73 @@
+.navigate{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    *{
+        font-size: 1.6rem;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.navigationList{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 35px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    background-color: #2424243b;
+    padding: 5px 12px;
+    border-radius: 15px;
+    opacity: .7;
+    input{
+        width: 150px;
+        background: transparent;
+        color: white;
+        
+        border: none;
+        outline: none;
+    }
+
+    input::placeholder{
+        color: white;
+    }
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.signIn,
+.signUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    color: var(--mainColor);
+    background-color: var(--auxiliaryСolor);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.signUp{
+    background-color: transparent;
+}

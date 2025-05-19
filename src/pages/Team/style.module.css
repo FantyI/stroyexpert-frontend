@@ -1,0 +1,129 @@
+.aboutUs {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-inline: 0;
+}
+
+.TeamBlock{
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+}
+
+.heading {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.title {
+    font-size: 4.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.highlight{
+    color: var(--auxiliaryСolor);
+}
+
+.description {
+    font-size: 1.8rem;
+    width: 700px;
+    opacity: .8;
+    text-align: center;
+    margin: auto;
+}
+
+.scrolle{
+    width: 1360px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+
+
+.cards{
+    display: flex;
+    gap: 35px;
+    transition: all .2s;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 430px;
+    height: 540px;
+    border: 1px solid var(--borderColor);
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.photo{
+    width: 380px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+/* .nameAndPosition{
+    display: flex;
+    align-items: end;
+} */
+
+.name{
+    font-size: 2.4rem;
+}
+
+.position{
+    font-size: 1.6rem;
+    opacity: .8;
+}
+
+.aboutEmployee{
+    font-size: 1.6rem;
+    opacity: .8;
+}
+
+.management{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pages{
+    font-size: 2rem;
+}
+
+.pageNumber{
+    font-weight: 700
+}
+
+.switchingButtons{
+    display: flex;
+    gap: 5px;
+}
+
+.leftButton,
+.rightButton{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--borderColor);
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.rightButton{
+    
+    img{
+        rotate: 180deg;
+
+    }
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.login{
+    box-sizing: border-box;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrap{
+    width: 400px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    color: var(--mainColor);
+}
+
+
+.title{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.description{
+    font-size: 1.8em;
+    color: #9A9A9A;
+}
+
+.inp{
+    font-size: 1.8em;
+    height: 60px;
+    position: relative;
+
+    label{
+        position: absolute;
+        z-index: 2;
+        transform: translate(20px, -50%);
+        left: 0;
+        top: 50%;
+        transition: all .2s ease-in-out;
+        background-color: var(--mainBackgroundColor);
+        color: #9A9A9A;
+    } 
+
+    input{
+        font-size: inherit;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px 40px 20px 20px;
+        border: 1px solid var(--borderColor);
+        border-radius: 10px;
+        background-color: transparent;
+    }
+    input:focus~label,
+    input:not(:placeholder-shown)~label{
+        top: 0;
+        font-size: 10px;
+        font-size: 1.6rem;
+    }
+}
+
+.password{
+    display: flex;
+    position: relative;
+
+    .hide{
+        background-color: white;
+        border: none;
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        transform: translate(20px, -50%);
+    }
+}
+
+.sign{
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: var(--auxiliaryСolor);
+    font-size: 2rem;
+    color: white;
+}
+
+.or{
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    hr{
+        width: 100%;
+    }
+}
+
+.continue{
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.register{
+    font-size: 1.8em;
+    margin: auto;
+}
+
+.img{ 
+    width: 50%;
+}
