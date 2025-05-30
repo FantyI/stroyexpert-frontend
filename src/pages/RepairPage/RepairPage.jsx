@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import s from './style.module.css'
 import Navigation from '../../components/Navigation/Navigation';
-import CardProject from '../../components/cardProject/cardProject';
+
 import { Link, useLocation } from 'react-router';
 import Footer from '../../components/Footer/Footer'
 
