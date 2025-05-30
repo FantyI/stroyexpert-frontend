@@ -1,15 +1,20 @@
 import s from './style.module.css'
 
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 
-const CardRepair = ({repair}) => {
-    const {title, description, image, advantages} = repair;
-    console.log(title, description, image, advantages)
+const CardRepair = ({project}) => {
+    const {name, description, images, advantages} = project;
+    // console.log(title, description, image, advantages)
+    const navigate = useNavigate()
+    const onClickCard = () => {
+        return navigate('/repair', {state: {project}})
+    }
+
     return (
         <div className={s.card}>
             <img src="../../public/CardRepair/Card-image.png" alt="" className={s.photo} />
             <div className={s.title}>
-                {title}
+                {name}
             </div>
             <div className={s.aboutEmployee}>
                 {description}
@@ -21,13 +26,13 @@ const CardRepair = ({repair}) => {
                 {location}
             </div> */}
             <div className={s.advantages}>
-                {advantages.map(advantage => (
+                {advantages.slice(0, 2).map(advantage => (
                     <div className={s.advantage}>
                         {advantage}
                     </div>
                 ))}
             </div>
-            <button className={s.view}>View Property</button>
+            <button onClick={onClickCard}  className={s.view}>Смотреть подробнее</button>
         </div>
     )
 }

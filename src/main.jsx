@@ -13,22 +13,16 @@ import Login from './pages/Login/Login.jsx'
 import Navigation from './components/Navigation/Navigation.jsx'
 import store from './redux/store.js'
 import ProjectPage from './pages/ProjectPage/ProjectPage.jsx'
+import Contacts from './pages/Contacts/Contacts.jsx'
+import RepairPage from './pages/RepairPage/RepairPage.jsx'
+import MainRouter from './MainRouter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    {/* <StrictMode> */}
+    <StrictMode>
       <Provider store={store}>
-        <Routes>
-          <Route path='/' element={<App />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/project' element={<ProjectPage />} />
-          <Route path='/repairs' element={<Repair />} />
-          <Route path='/auth'>
-              <Route path='register' element={<Register />} />
-              <Route path='login' element={<Login />} />
-          </Route>
-        </Routes>
+        <MainRouter />
       </Provider>
-    {/* </StrictMode> */}
+    </StrictMode>
   </BrowserRouter>
 )

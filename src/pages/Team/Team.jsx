@@ -20,7 +20,7 @@ const Team = () => {
     const moveLeft = () => {
         if(moveIt - 1400 < 0){
             setMoveIt(0)
-            setPageNumber(0)
+            setPageNumber(1)
         } else {
             setMoveIt((moveIt) => moveIt - 1400);
             setPageNumber(numberPages => numberPages - 1)
@@ -30,9 +30,9 @@ const Team = () => {
     return (
         <div className={s.TeamBlock}>
             <div className={s.heading}>
-                <div className={s.title}><img src="../../public/Heading/Vector (3).svg" alt="" />Our experienced team</div>
+                <div className={s.title}><img src="../../public/Heading/Vector (3).svg" alt="" />Наша команда</div>
                 <p className={s.description}>
-                    At Pinnacle, we're not just building structures - we're building relationships. Here's what some of our satisfied clients have to say about their experience with us.
+                    Обладая разнообразными навыками и опытом, наша команда стремится добиваться исключительных результатов и превосходить ожидания наших клиентов.
                 </p>
             </div>
             <div className={s.scrolle} >
@@ -40,28 +40,28 @@ const Team = () => {
                     <div className={s.card}>
                         <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
-                            <span className={s.name}>John Doe /</span><span className={s.position}> Founder and СЕО</span>
+                            <span className={s.name}>Сергей /</span><span className={s.position}> Founder and СЕО</span>
                         </div>
                         <div className={s.aboutEmployee}>
-                            With over 20 years of experience in the construction and real estate industry, he has built a reputation for his unwavering commitment to quality and innovation.
+                            Имея более чем 20-летний опыт работы в сфере строительства и недвижимости, он заслужил репутацию человека, неизменно преданного качеству и инновациям.
                         </div>
                     </div>
                     <div className={s.card}>
                         <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
-                            <span className={s.name}>John Doe /</span><span className={s.position}> Founder and СЕО</span>
+                            <span className={s.name}>Евгения /</span><span className={s.position}> VP of 0perations</span>
                         </div>
                         <div className={s.aboutEmployee}>
-                            With over 20 years of experience in the construction and real estate industry, he has built a reputation for his unwavering commitment to quality and innovation.
+                            Евгения — движущая сила повседневной деятельности. Ее способность решать сложные задачи и находить креативные решения сыграла решающую роль в нашем росте.
                         </div>
                     </div>
                     <div className={s.card}>
                         <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
-                            <span className={s.name}>John Doe /</span><span className={s.position}> Founder and СЕО</span>
+                            <span className={s.name}>Михаил /</span><span className={s.position}> Director of Design</span>
                         </div>
                         <div className={s.aboutEmployee}>
-                            With over 20 years of experience in the construction and real estate industry, he has built a reputation for his unwavering commitment to quality and innovation.
+                            Он обладает уникальной способностью превращать даже самые амбициозные видения в реальность. Его инновационный подход и внимание к деталям заслужили ему уважение наших клиентов.
                         </div>
                     </div>
                     <div className={s.card}>

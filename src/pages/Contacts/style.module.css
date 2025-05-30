@@ -1,0 +1,75 @@
+.description{
+   font-size: 1.8rem;
+   width: 750px;
+   color: var(--gray);
+}
+
+.description{
+   margin-bottom: 50px;
+}
+
+.mainImg{
+   width: 100%;
+   border-radius: 15px;
+   margin-bottom: 100px;
+}
+
+.contactsForms{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.left{
+   width: 30%;
+   display: flex;
+   flex-flow: column;
+   gap: 48px;
+}
+
+.right{
+   width: 60%;
+}
+
+.section{
+   display: flex;
+   flex-flow: column;
+}
+
+.sectionName{
+   font-size: 3.8rem;
+   margin-bottom: 10px;
+   font-weight: 500;
+   height: 62px;
+}
+
+.wrapContent{
+   display: flex;
+   flex-flow: column;
+   gap: 15px;
+}
+
+.buttonInfo,
+.socialNetwork{
+   font-size: 1.8rem;
+   padding: 18px 24px;
+   background-color: var(--buttonColor);
+   border: 1px solid var(--borderColor);
+   color: var(--mainColor);
+   border-radius: 8px;
+   white-space: nowrap;
+   width: min-content;
+}
+
+.wrapSocialNetwork{
+   display: flex;
+   gap: 10px;
+}
+
+.socialNetwork{
+   padding: 18px 30px;
+   img{
+      width: 24px;
+      height: 24px;
+   }
+}

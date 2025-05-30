@@ -38,7 +38,7 @@ const Register = () => {
             alert(`Ошибка: ${data.payload.error}`)
         }
         else if(data.payload){
-            window.localStorage.setItem('token', data.payload.token)
+            window.localStorage.setItem('token',`Bearer ${data.payload.token}`)
             navigate('/')
         } else{
             alert('Не получилось зарегистрировааться')
@@ -56,8 +56,8 @@ const Register = () => {
     return (
         <div className={s.register} >
             <div className={s.wrap}>
-                <div className={s.title}>Sign up</div>
-                <div className={s.description}>Please login to continue to your account.</div>
+                <div className={s.title}>Зарегистрироваться</div>
+                {/* <div className={s.description}>Пожалуйста, войдите в свою учетную запись, чтобы продолжить работу.</div> */}
 
                 <div className={s.inp}>
                     <input onChange={e => setName(e.target.value)} value={name} type="text" id='name' placeholder=' ' />
@@ -74,14 +74,14 @@ const Register = () => {
                     <button className={s.hide}><img src="public/Visibility Off.svg" alt="" /></button>
                 </div>
 
-                <button onClick={register} className={s.sign}>Sign Up</button>
+                <button onClick={register} className={s.sign}>Зарегистрироваться</button>
                 <div className={s.or}>
                     <hr />
-                    or
+                    или
                     <hr />
                 </div>
 
-                <p className={s.login}>Already have an account?? <Link to='/auth/login'>Sign in</Link></p>
+                <p className={s.login}>Already have an account?? <Link to='/auth/login'>Войти</Link></p>
             </div>
             <img className={s.img}  src="../../public/Register-Login/image.svg" alt="" />
         </div>

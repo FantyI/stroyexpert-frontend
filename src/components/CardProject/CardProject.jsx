@@ -1,19 +1,19 @@
-import ProjectPage from '../../pages/ProjectPage/ProjectPage';
+
 import s from './style.module.css'
 
 import { Link, Navigate, useNavigate } from 'react-router';
 
 const CardProject = ({project}) => {
     
-    const {name, description, location, image, advantages} = project;
+    const {name, description, location, images, advantages} = project;
     const navigate = useNavigate()
     const onClickCard = () => {
         return navigate('/project', {state: {project}})
     }
-
+    console.log(images[0])
     return (
         <div className={s.card}>
-            <img src="../../public/CardProject/Card-image.png" alt="" className={s.photo} />
+            <img src={`${images[0]}`} alt="" className={s.photo} />
             <div className={s.name}>
                 {name}
             </div>
@@ -33,7 +33,7 @@ const CardProject = ({project}) => {
                     </div>
                 ))}
             </div>
-            <button onClick={onClickCard} className={s.view}>View Property</button>
+            <button onClick={onClickCard} className={s.view}>Смотреть подробнее</button>
         </div>
     )
 }

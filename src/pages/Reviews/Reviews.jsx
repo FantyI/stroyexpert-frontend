@@ -5,9 +5,9 @@ const Reviews = () => {
     return (
         <div className={s.ReviewsBlock}>
             <div className={s.heading}>
-                <div className={s.title}>What Our Clients Say<img src="../../public/Heading/Vector (3).svg" alt="" /></div>
+                <div className={s.title}>Что говорят клиенты<img src="../../public/Heading/Vector (3).svg" alt="" /></div>
                 <p className={s.description}>
-                    At Pinnacle, we're not just building structures - we're building relationships. Here's what some of our satisfied clients have to say about their experience with us.
+                    Наша компания не просто строит структуры — мы строим отношения. Вот что говорят некоторые из наших довольных клиентов о своем опыте работы с нами.
                 </p>
                 <div className={s.users}>
                     <div className={s.icons}>
@@ -22,7 +22,7 @@ const Reviews = () => {
                                 <img src='../../public/Reviews/star.png' />
                             ))}
                         </div>
-                        <div className={s.info}>4.3/5 Rated by 300+ Professionals</div>
+                        <div className={s.info}>4.8/5 Оценка от 300+ профессионалов</div>
                     </div>
                 </div>
             </div>
@@ -30,37 +30,35 @@ const Reviews = () => {
                 <div className={s.review}>
                     <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
                     <div className={s.text}>
+                        <div className={s.name}>- Ольга, Owner, Smith & Co.</div>
                         <p className={s.msg}>
-                            "Pinnacle's attention to detail and commitment to excellence is unparalleled. Their team is professional, courteous, and always willing to go the extra mile."
-                        </p>
-                        <div className={s.name}>- Emily J. Smith, Owner, Smith & Co.</div>
+                            «Внимание Строй Эксперт к деталям и стремление к совершенству не имеют себе равных. Их команда профессиональна, вежлива и всегда готова сделать все возможное».                        </p>
                     </div>
                 </div>
                 <div className={s.review}>
                     <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
                     <div className={s.text}>
+                        <div className={s.name}>- Иван, Owner, Smith & Co.</div>
                         <p className={s.msg}>
-                            "Pinnacle's attention to detail and commitment to excellence is unparalleled. Their team is professional, courteous, and always willing to go the extra mile."
-                        </p>
-                        <div className={s.name}>- Emily J. Smith, Owner, Smith & Co.</div>
+                            «Я был поражен качеством работы. Они действительно понимают важность предоставления исключительных результатов».                        </p>
                     </div>
                 </div>
                 <div className={s.review}>
                     <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
                     <div className={s.text}>
+                        <div className={s.name}>- Давид, CEO, Lee Enterprises</div>
                         <p className={s.msg}>
-                            "Pinnacle's attention to detail and commitment to excellence is unparalleled. Their team is professional, courteous, and always willing to go the extra mile."
+                            «Я был поражен качеством работы и уровнем обслуживания. Они действительно понимают важность предоставления исключительных результатов».
                         </p>
-                        <div className={s.name}>- Emily J. Smith, Owner, Smith & Co.</div>
                     </div>
                 </div>
                 <div className={s.review}>
                     <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
                     <div className={s.text}>
+                        <div className={s.name}> - Анна, Project Manager, Johnson Co</div>
                         <p className={s.msg}>
-                            "Pinnacle's attention to detail and commitment to excellence is unparalleled. Their team is professional, courteous, and always willing to go the extra mile."
+                            «Способность сбалансировать бюджет, график и качество впечатляет. Они — настоящий партнер в процессе строительства».
                         </p>
-                        <div className={s.name}>- Emily J. Smith, Owner, Smith & Co.</div>
                     </div>
                 </div>
             </div>

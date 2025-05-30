@@ -1,10 +1,10 @@
 import axios from 'axios'
 const example = axios.create({
-   baseURL: process.env.REACT_APP_BASE_URL
+   baseURL: 'http://localhost:3000/api'
 })
 
 example.interceptors.request.use(config => {
-   config.headers['Authorization'] = ''
+   config.headers['Authorization'] = window.localStorage.getItem('token') || ''
    return config
 })
 
