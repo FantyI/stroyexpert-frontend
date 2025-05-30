@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import s from './style.module.css'
 
-const Team = () => {
+const Team = () => { 
     let [pageNumber, setPageNumber] = useState(1);
     let [moveIt, setMoveIt] = useState(0);
 
