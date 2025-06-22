@@ -19,7 +19,7 @@ const Contact = () => {
                     Мы ценим ваши отзывы и хотели бы услышать от вас. Если у вас есть вопрос, комментарий или предложение, мы здесь, чтобы выслушать и помочь любым возможным способом.
                 </p>
                 <div className={s.main}>
-                    <img src="../../../public/Contacts/img.png" alt="" className={s.mainImg}/>
+                    <img src="/Contacts/img.png" alt="" className={s.mainImg}/>
                     <div className={s.contactsForms}>
                         <div className={s.left}>
                             <div className={s.section}>
@@ -39,10 +39,10 @@ const Contact = () => {
                             <div className={s.section}>
                                 <div className={s.sectionName}>Соцсети</div>
                                 <div className={s.wrapSocialNetwork}>
-                                    <button className={s.socialNetwork}><img src="../../../public/socialNetwork/facebook.png" alt="" /></button>
-                                    <button className={s.socialNetwork}><img src="../../../public/socialNetwork/linkdin.png" alt="" /></button>
-                                    <button className={s.socialNetwork}><img src="../../../public/socialNetwork/twit.png" alt="" /></button>
-                                    <button className={s.socialNetwork}><img src="../../../public/socialNetwork/youtube.png" alt="" /></button>
+                                    <button className={s.socialNetwork}><img src="/socialNetwork/facebook.png" alt="" /></button>
+                                    <button className={s.socialNetwork}><img src="/socialNetwork/linkdin.png" alt="" /></button>
+                                    <button className={s.socialNetwork}><img src="/socialNetwork/twit.png" alt="" /></button>
+                                    <button className={s.socialNetwork}><img src="/socialNetwork/youtube.png" alt="" /></button>
                                 </div>
                             </div>
                         </div>

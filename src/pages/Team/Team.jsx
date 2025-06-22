@@ -30,7 +30,7 @@ const Team = () => {
     return (
         <div className={s.TeamBlock}>
             <div className={s.heading}>
-                <div className={s.title}><img src="../../public/Heading/Vector (3).svg" alt="" />Наша команда</div>
+                <div className={s.title}><img src="/Heading/Vector (3).svg" alt="" />Наша команда</div>
                 <p className={s.description}>
                     Обладая разнообразными навыками и опытом, наша команда стремится добиваться исключительных результатов и превосходить ожидания наших клиентов.
                 </p>
@@ -38,7 +38,7 @@ const Team = () => {
             <div className={s.scrolle} >
                 <div className={s.cards} style={{transform: `translateX(-${moveIt}px)`}}>
                     <div className={s.card}>
-                        <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
+                        <img src="/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
                             <span className={s.name}>Сергей /</span><span className={s.position}> Founder and СЕО</span>
                         </div>
@@ -47,7 +47,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className={s.card}>
-                        <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
+                        <img src="/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
                             <span className={s.name}>Евгения /</span><span className={s.position}> VP of 0perations</span>
                         </div>
@@ -56,7 +56,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className={s.card}>
-                        <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
+                        <img src="/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
                             <span className={s.name}>Михаил /</span><span className={s.position}> Director of Design</span>
                         </div>
@@ -65,7 +65,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className={s.card}>
-                        <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
+                        <img src="/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
                             <span className={s.name}>John Doe /</span><span className={s.position}> Founder and СЕО</span>
                         </div>
@@ -74,7 +74,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className={s.card}>
-                        <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
+                        <img src="/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
                             <span className={s.name}>John Doe /</span><span className={s.position}> Founder and СЕО</span>
                         </div>
@@ -83,7 +83,7 @@ const Team = () => {
                         </div>
                     </div>
                     <div className={s.card}>
-                        <img src="../../public/Team/Card-image.png" alt="" className={s.photo} />
+                        <img src="/Team/Card-image.png" alt="" className={s.photo} />
                         <div className={s.nameAndPosition}>
                             <span className={s.name}>John Doe /</span><span className={s.position}> Founder and СЕО</span>
                         </div>
@@ -98,8 +98,8 @@ const Team = () => {
                     <span className={s.pageNumber}>{pageNumber}</span> / <span className={s.numberPages}>{numberPages}</span>
                 </div>
                 <div className={s.switchingButtons}>
-                    <button className={s.leftButton} onClick={moveLeft}><img src="../../public/Team/arrow.svg" alt="" /></button>
-                    <button className={s.rightButton} onClick={moveRight}><img src="../../public/Team/arrow.svg" alt="" /></button>
+                    <button className={s.leftButton} onClick={moveLeft}><img src="/Team/arrow.svg" alt="" /></button>
+                    <button className={s.rightButton} onClick={moveRight}><img src="/Team/arrow.svg" alt="" /></button>
                 </div>
             </div>
         </div>

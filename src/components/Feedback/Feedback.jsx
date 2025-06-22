@@ -29,7 +29,7 @@ const Feedback = () => {
     return (
         <div className={s.Feedback}>
             <div className={s.heading}>
-                <div className={s.title}>У вас есть проект?<img src="../../public/Heading/Vector (3).svg" alt="" /></div>
+                <div className={s.title}>У вас есть проект?<img src="/Heading/Vector (3).svg" alt="" /></div>
             </div>
             <div className={s.form}>
                 <div className={s.dataUsers}>
@@ -66,7 +66,7 @@ const Feedback = () => {
                         <input required type='checkbox' className={s.checkbox} />
                         Я согласен с Условиями использования и Политикой конфиденциальности
                     </div>
-                    <button onClick={onSend} className={s.btnSend}>Отправить <img src="../../public/Feedback/send.svg" alt="" /></button>
+                    <button onClick={onSend} className={s.btnSend}>Отправить <img src="/Feedback/send.svg" alt="" /></button>
                 </div>
             </div>
 

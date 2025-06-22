@@ -54,8 +54,8 @@ const Login = () => {
                 <div className={`${s.inp} ${s.password}`}>
                     <input type="text" id='password' placeholder=' ' onChange={e => setPassword(e.target.value)} value={password} />
                     <label htmlFor="password">Password</label>
-                    <button className={s.hide}><img src="public/regicter-login/Visibility.svg" alt="" /></button>
-                    <button className={s.hide}><img src="public/regicter-login/Visibility Off.svg" alt="" /></button>
+                    <button className={s.hide}><img src="/regicter-login/Visibility.svg" alt="" /></button>
+                    <button className={s.hide}><img src="/regicter-login/Visibility Off.svg" alt="" /></button>
                 </div>
 
                 <button onClick={login} className={s.sign}>Войти</button>
@@ -67,7 +67,7 @@ const Login = () => {
 
                 <p className={s.register}>Already have an account?? <Link className={s.link} to='/auth/register'>Создать аккаунт</Link></p>
             </div>
-            <img className={s.img} src="../../public/Register-Login/image.svg" alt="" />
+            <img className={s.img} src="/Register-Login/image.svg" alt="" />
         </div>
     )
 }

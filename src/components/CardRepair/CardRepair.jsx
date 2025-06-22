@@ -12,7 +12,7 @@ const CardRepair = ({project}) => {
 
     return (
         <div className={s.card}>
-            <img src="../../public/CardRepair/Card-image.png" alt="" className={s.photo} />
+            <img src="/CardRepair/Card-image.png" alt="" className={s.photo} />
             <div className={s.title}>
                 {name}
             </div>

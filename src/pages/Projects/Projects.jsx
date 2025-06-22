@@ -11,7 +11,7 @@ const projects = [
         description: "Проект для ценителей лаконичного дизайна и функциональности. Просторные помещения с панорамными окнами, открытая терраса и каминная зона.",
         location: "Подмосковье, коттеджный поселок «Зеленые Холмы»",
         images: [
-            "../../../public/imgCardProject/1.png",
+            "/imgCardProject/1.png",
             "https://example.com/minimalist2.jpg",
             "https://example.com/minimalist3.jpg"
         ],
@@ -27,7 +27,7 @@ const projects = [
         description: "Уютный дом с натуральной отделкой и теплой цветовой гаммой. Большая гостиная-кухня, камин и зимний сад.",
         location: "Ленинградская область, поселок «Сосновый Бор»",
         images: [
-            "../../../public/imgCardProject/2.png",
+            "/imgCardProject/2.png",
             "https://example.com/nordic2.jpg",
             "https://example.com/nordic3.jpg"
         ],
@@ -43,7 +43,7 @@ const projects = [
         description: "Роскошный дом с колоннами, высокими потолками и мраморными полами. Винный погреб, бильярдная и домашний кинотеатр.",
         location: "Московская область, Рублево-Успенское шоссе",
         images: [
-            "../../../public/imgCardProject/3.png",
+            "/imgCardProject/3.png",
             "https://example.com/aristocrat2.jpg",
             "https://example.com/aristocrat3.jpg"
         ],
@@ -59,7 +59,7 @@ const projects = [
         description: "Небольшой уютный дом для отдыха на природе. Веранда с качелями, мангал и фруктовый сад.",
         location: "Калужская область, деревня «Берёзки»",
         images: [
-            "../../../public/imgCardProject/4.png",
+            "/imgCardProject/4.png",
             "https://example.com/forest-house2.jpg",
             "https://example.com/forest-house3.jpg"
         ],

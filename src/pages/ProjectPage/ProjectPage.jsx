@@ -177,11 +177,11 @@ const ProjectPage = () => {
                                 </svg>
                             </button>
                             <div className={s.photo} ref={widthScrolle} style={{ translate: `${shift}px` }}>
-                                <img ref={widthImg} src="../../../../public/CardRepair/Card-image.png" alt="" className={s.mainImg} />
-                                <img src="../../../../public/CardRepair/Card-image.png" alt="" className={s.mainImg} />
-                                <img src="../../../../public/Team/Card-image.png" alt="" className={s.mainImg} />
-                                <img src="../../../../public/CardRepair/Card-image.png" alt="" className={s.mainImg} />
-                                <img src="../../../../public/CardRepair/Card-image.png" alt="" className={s.mainImg} />
+                                <img ref={widthImg} src="/CardRepair/Card-image.png" alt="" className={s.mainImg} />
+                                <img src="/CardRepair/Card-image.png" alt="" className={s.mainImg} />
+                                <img src="/Team/Card-image.png" alt="" className={s.mainImg} />
+                                <img src="/CardRepair/Card-image.png" alt="" className={s.mainImg} />
+                                <img src="/CardRepair/Card-image.png" alt="" className={s.mainImg} />
                             </div>
                         </div>
                         <div className={s.counterPages}>{pages}/{numberPages}</div>

@@ -5,21 +5,21 @@ const Reviews = () => {
     return (
         <div className={s.ReviewsBlock}>
             <div className={s.heading}>
-                <div className={s.title}>Что говорят клиенты<img src="../../public/Heading/Vector (3).svg" alt="" /></div>
+                <div className={s.title}>Что говорят клиенты<img src="/Heading/Vector (3).svg" alt="" /></div>
                 <p className={s.description}>
                     Наша компания не просто строит структуры — мы строим отношения. Вот что говорят некоторые из наших довольных клиентов о своем опыте работы с нами.
                 </p>
                 <div className={s.users}>
                     <div className={s.icons}>
-                        <img src="../../public/Reviews/user1.png" alt="" />
-                        <img src="../../public/Reviews/user2.png" alt="" />
-                        <img src="../../public/Reviews/user3.png" alt="" />
-                        <img src="../../public/Reviews/users.png" alt="" />
+                        <img src="/Reviews/user1.png" alt="" />
+                        <img src="/Reviews/user2.png" alt="" />
+                        <img src="/Reviews/user3.png" alt="" />
+                        <img src="/Reviews/users.png" alt="" />
                     </div>
                     <div className={s.estimation}>
                         <div className={s.stars}>
                             {Array.from({ length: 5 }).map(() => (
-                                <img src='../../public/Reviews/star.png' />
+                                <img src='/Reviews/star.png' />
                             ))}
                         </div>
                         <div className={s.info}>4.8/5 Оценка от 300+ профессионалов</div>
@@ -28,7 +28,7 @@ const Reviews = () => {
             </div>
             <div className={s.reviews}>
                 <div className={s.review}>
-                    <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
+                    <img className={s.userIcon} src="/Reviews/users.png" alt="" />
                     <div className={s.text}>
                         <div className={s.name}>- Ольга, Owner, Smith & Co.</div>
                         <p className={s.msg}>
@@ -36,7 +36,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className={s.review}>
-                    <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
+                    <img className={s.userIcon} src="/Reviews/users.png" alt="" />
                     <div className={s.text}>
                         <div className={s.name}>- Иван, Owner, Smith & Co.</div>
                         <p className={s.msg}>
@@ -44,7 +44,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className={s.review}>
-                    <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
+                    <img className={s.userIcon} src="/Reviews/users.png" alt="" />
                     <div className={s.text}>
                         <div className={s.name}>- Давид, CEO, Lee Enterprises</div>
                         <p className={s.msg}>
@@ -53,7 +53,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className={s.review}>
-                    <img className={s.userIcon} src="../../public/Reviews/users.png" alt="" />
+                    <img className={s.userIcon} src="/Reviews/users.png" alt="" />
                     <div className={s.text}>
                         <div className={s.name}> - Анна, Project Manager, Johnson Co</div>
                         <p className={s.msg}>

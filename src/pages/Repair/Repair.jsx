@@ -298,7 +298,7 @@ const Repair = () => {
             <div className={s.Repair}>
 
                 <div className={s.heading}>
-                    <div className={s.title}>Ремонт<img src="../../public/Heading/Vector (3).svg" alt="" /></div>
+                    <div className={s.title}>Ремонт<img src="/Heading/Vector (3).svg" alt="" /></div>
                     <p className={s.description}>
                         Изучите наше портфолио, чтобы оценить широту и качество нашей работы, а также получить вдохновение для начала собственного проекта мечты.
                     </p>

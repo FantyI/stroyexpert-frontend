@@ -70,8 +70,8 @@ const Register = () => {
                 <div className={`${s.inp} ${s.password}`}>
                     <input onChange={e => setPassword(e.target.value)} value={password} type="text" id='password' placeholder=' ' />
                     <label htmlFor="password">Password</label>
-                    <button className={s.hide}><img src="public/Visibility.svg" alt="" /></button>
-                    <button className={s.hide}><img src="public/Visibility Off.svg" alt="" /></button>
+                    <button className={s.hide}><img src="/Visibility.svg" alt="" /></button>
+                    <button className={s.hide}><img src="/Visibility Off.svg" alt="" /></button>
                 </div>
 
                 <button onClick={register} className={s.sign}>Зарегистрироваться</button>
@@ -83,7 +83,7 @@ const Register = () => {
 
                 <p className={s.login}>Already have an account?? <Link to='/auth/login'>Войти</Link></p>
             </div>
-            <img className={s.img}  src="../../public/Register-Login/image.svg" alt="" />
+            <img className={s.img}  src="/Register-Login/image.svg" alt="" />
         </div>
     )
 }
