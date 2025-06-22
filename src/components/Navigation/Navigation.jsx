@@ -18,7 +18,7 @@ const Navigation = () => {
     return (
         <nav className={s.navigate}>
             <Link to='/' className={s.logo}>
-                <img src="../../public/header/logo.svg" alt="logo" />
+                <img src="/header/logo.svg" alt="logo" />
                 <p className={s.nameCompany}>Строй <br /> Эксперт</p>
             </Link>
 
